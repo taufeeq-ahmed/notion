@@ -1,8 +1,10 @@
 import React from 'react'
 
-function HompePageLayout() {
+function HompePageLayout({ children }: { children: React.ReactNode }) {
     return (
-        <div>HompePageLayout</div>
+        <main>
+            {children}
+        </main>
     )
 }
 
